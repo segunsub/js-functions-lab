@@ -72,11 +72,11 @@
 
 8. Write a describeAge function that takes a parameter age (which will always be a positive integer) and does the following:
 
-If the age is 12 or lower, it returns `"You're a(n) kid"`
-If the age is anything between 13 and 17 (inclusive), it returns `"You're a(n) teenager"`
-If the age is anything between 18 and 64 (inclusive), it return `"You're a(n) adult"`
-If the age is 65 or above, it return `"You're an elderly"`
-Your goal is to write this function using as few lines of code as possible. Up for a challenge? This function can be written in one-line using ternary operator(s) 😳.
+    If the age is 12 or lower, it returns `"You're a(n) kid"`
+    If the age is anything between 13 and 17 (inclusive), it returns `"You're a(n) teenager"`
+    If the age is anything between 18 and 64 (inclusive), it return `"You're a(n) adult"`
+    If the age is 65 or above, it return `"You're an elderly"`
+    Your goal is to write this function using as few lines of code as possible. Up for a challenge? This function can be written in one-line using ternary operator(s) 😳.
 
     Examples:
     ```javascript
@@ -90,7 +90,7 @@ Your goal is to write this function using as few lines of code as possible. Up f
 
 9. Leap years occur in every year that is evenly divisible by 4, unless the year is also divisible by 100. If the year is evenly divisible by 100, then it is not a leap year, unless the year is also evenly divisible by 400.
 
-Assume this rule is valid for any year greater than year 0. Write a function that takes any year greater than 0 as input, and returns true if the year is a leap year, or false if it is not a leap year.
+    Assume this rule is valid for any year greater than year 0. Write a function that takes any year greater than 0 as input, and returns true if the year is a leap year, or false if it is not a leap year.
 
     Examples:
     ```javascript
@@ -105,7 +105,7 @@ Assume this rule is valid for any year greater than year 0. Write a function tha
 
 10. Write a function that returns the sum of all numbers between 1 and some other number, inclusive, that are multiples of 3 or 5. For example, if the supplied number is 17, the result should be 60 (3 + 5 + 6 + 9 + 10 + 12 + 15).
 
-You may assume that the number passed in is an integer greater than 1.
+    You may assume that the number passed in is an integer greater than 1.
 
     Examples:
     ```javascript
