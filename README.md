@@ -4,7 +4,7 @@
 ### Directions
 Like last time, there are two parts to this problem set:
 * A written response section
-* JavaScript small problems[<sup>1</sup>]
+* JavaScript small problems<sup>[1]</sup>
 
 To complete and submit this problem set, you will...
 1. Fork this lab
