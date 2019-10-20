@@ -4,7 +4,7 @@
 ### Directions
 Like last time, there are two parts to this problem set:
 * A written response section
-* JavaScript small problems<sup>[1]</sup>
+* JavaScript small problems<sup>[1](#myfootnote1)</sup>
 
 To complete and submit this problem set, you will...
 1. Fork this lab
@@ -31,4 +31,4 @@ To complete and submit this problem set, you will...
   1. When you are ready to run your first test, navigate to your `first-last` directory and run `npm install` in the terminal. Think of this command as "installing" the tests.
   2. Now, each time you want to run test, run `npm test` in the terminal. Once again, make sure you are in your `first-last` directory. When you run the test suite, you will see some helpful information in the output. It will tell you which tests passed and failed and what the expected results of each of the tests were. Only when you have gotten **all** tests to pass can you submit this assignment with a PR. 
 
-[1]: Exercises adapted from [Launch School](https://launchschool.com) small problems and [Code Wars](https://codewars.com) katas.
+<a name="myfootnote1">1</a>: Exercises adapted from [Launch School](https://launchschool.com) small problems and [Code Wars](https://codewars.com) katas.
