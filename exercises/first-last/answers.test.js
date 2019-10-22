@@ -16,7 +16,7 @@ test('Question 2: logOddNumbers should return undefined', () => {
 test(`Question 3: area`, () => {
   expect(answers.area(5, 7)).toBe(35);
   expect(answers.area(15, 10)).toBe(150);
-  expect(answers.area(25.75)).toBe(1081.5);
+  expect(answers.area(25.75, 4)).toBe(1081.5);
 });
 
 // Question 4
