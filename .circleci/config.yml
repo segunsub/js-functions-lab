@@ -33,6 +33,7 @@ jobs:
           name: Test
           command: |
             cd exercises
+            npm install
             npm test
 
 workflows:
