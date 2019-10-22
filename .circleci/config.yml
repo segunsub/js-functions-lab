@@ -19,3 +19,24 @@ jobs:
           name: Running in a Unique Container
           command: |
             node -v
+      - run:
+          name: Install tests
+          command: |
+            npm install
+  test:
+    docker:
+      - image: circleci/node:9.11
+    steps:
+      - checkout
+      - run:
+          name: Test
+          command: npm test
+
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
