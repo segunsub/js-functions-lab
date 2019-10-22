@@ -30,7 +30,9 @@ jobs:
       - checkout
       - run:
           name: Test
-          command: npm test
+          command: |
+            cd exercises
+            npm test
 
 workflows:
   version: 2.1
