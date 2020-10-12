@@ -14,7 +14,9 @@ To complete and submit this problem set, you will...
     * `index.html`
     * `answers.test.js`
 
-The problem prompts are in `README.md`. You are to write your solutions in the `answers.js` file. *You are to write your code inside the existing function declarations*. Example:
+The problem prompts are in `README.md`. You are to write your solutions in the `answers.js` file. *You are to write your code inside the existing function declarations*. 
+
+Example:
       ```javascript
       // Question 1
       function thisIsAnExample() {
@@ -22,7 +24,7 @@ The problem prompts are in `README.md`. You are to write your solutions in the `
       }
       ```
     
-    I included the `index.html` file for you so that you can run your code in the browser and use Chrome Dev tools.
+I included the `index.html` file for you so that you can run your code in the browser and use Chrome Dev tools.
 
 ### On _Testing_
 * This is our first problem set with [_unit tests_](https://www.youtube.com/watch?v=CB7vnoXI0pE). Unit Testing is a way to ensure that your code functions as intended by breaking it up into smaller components and testing each part, independently. We will talk more about unit tests in the future. In fact, you will eventually write your own. For now, just follow these steps to test your code using the tests that I wrote.
