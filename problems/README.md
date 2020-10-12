@@ -8,16 +8,16 @@
 
 ## Problem Set 2.3 - Coding Exercises
 
-1. Write a function that takes a name and logs a greeting with `"Good morning"` and the person's name.
+1. Write a function that takes a name and **returns** a greeting with `"Good morning"` and the person's name.
 
     Example:
     ```javascript
     greet("Carmen"); // "Good morning, Carmen!"
     greet("Devonte"); // "Good morning, Devonte!"
-    greet("Reuben Ogbonna"); "Good morning, Reuben Ogbonna!"
+    greet("Reuben Ogbonna"); // "Good morning, Reuben Ogbonna!"
     ```
 
-2. Write a function that logs all odd numbers from 1 to 99, inclusive, to the console. Log all numbers on separate lines.
+2. Write a function that **logs** all odd numbers from 1 to 99, inclusive, to the console. Log all numbers on separate lines.
 
     Example:
     ```javascript
