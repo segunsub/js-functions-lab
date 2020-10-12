@@ -27,7 +27,10 @@ Example:
 I included the `index.html` file for you so that you can run your code in the browser and use Chrome Dev tools.
 
 ### On _Testing_
-* This is our first problem set with [_unit tests_](https://www.youtube.com/watch?v=CB7vnoXI0pE). Unit Testing is a way to ensure that your code functions as intended by breaking it up into smaller components and testing each part, independently. We will talk more about unit tests in the future. In fact, you will eventually write your own. For now, just follow these steps to test your code using the tests that I wrote.
+
+This is our first problem set with [_unit tests_](https://www.youtube.com/watch?v=CB7vnoXI0pE). Unit Testing is a way to ensure that your code functions as intended by breaking it up into smaller components and testing each part, independently. We will talk more about unit tests in the future. In fact, you will eventually write your own. 
+
+For now, just follow these steps to test your code using the tests that I wrote.
   1. When you are ready to run your first test, run `npm install` in the terminal. Think of this command as "installing" the tests.
   2. Now, each time you want to run tests, run `npm test` in the terminal. When you run the test suite, you will see some helpful information in the output. It will tell you which tests passed and failed and what the expected results of each of the tests were. Only when you have gotten **all** tests to pass can you submit this assignment.
   3. Commit frequently.
