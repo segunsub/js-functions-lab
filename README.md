@@ -13,7 +13,8 @@ To complete and submit this problem set, you will...
     * `answers.js` 
     * `index.html`
     * `answers.test.js`
-    The problem prompts are in `README.md`. You are to write your solutions in the `answers.js` file. *You are to write your code inside the existing function declarations*. Example:
+
+The problem prompts are in `README.md`. You are to write your solutions in the `answers.js` file. *You are to write your code inside the existing function declarations*. Example:
       ```javascript
       // Question 1
       function thisIsAnExample() {
