@@ -1,4 +1,11 @@
-# Unit 2 - Lesson 3: Introduction to JavaScript Functions
+# Unit 2 Lesson 3 Problem Set
+
+## Making the Test Pass
+* The Unit Tests are located in `answers.test.js`. You can look inside that file. It's not magic. 🧙🏾‍♂️
+* In order for me to accept your submission, all of my tests must pass.
+    1. From this project's **root directory** (not this current directory), install the test with `npm install`. (Do this only one time)
+    2. Run your test with `npm test`. (Run this command often to see if your functions are passing)
+
 ## Problem Set 2.3 - Coding Exercises
 
 1. Write a function that takes a name and logs a greeting with `"Good morning"` and the person's name.
@@ -134,3 +141,6 @@
     stringy(7);    // "1010101"
     ```
 
+
+
+As always, when you are done, commit and push.
