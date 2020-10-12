@@ -87,12 +87,12 @@
 
     Examples:
     ```javascript
-    describeAge(11); // "You're a kid"
-    describeAge(13); // "You're a teenager"
-    describeAge(19); // "You're an adult"
-    describeAge(64); // "You're an adult"
-    describeAge(64); // "You're an adult"
-    describeAge(99); // "You're an elderly"
+    describeAge(11); // "You're a kid."
+    describeAge(13); // "You're a teenager."
+    describeAge(19); // "You're an adult."
+    describeAge(64); // "You're an adult."
+    describeAge(64); // "You're an adult."
+    describeAge(99); // "You're an elderly."
     ```
 
 
