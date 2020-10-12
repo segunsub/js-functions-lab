@@ -17,12 +17,12 @@ To complete and submit this problem set, you will...
 The problem prompts are in `README.md`. You are to write your solutions in the `answers.js` file. *You are to write your code inside the existing function declarations*. 
 
 Example:
-      ```javascript
+```javascript
       // Question 1
       function thisIsAnExample() {
         return true;
       }
-      ```
+```
     
 I included the `index.html` file for you so that you can run your code in the browser and use Chrome Dev tools.
 
