@@ -8,6 +8,14 @@ test('Question 1: greet', () => {
 });
 
 // Question 2
+test('Question 2: logOddNumbers should log to the console', () => {
+  global.console = { log: jest.fn() };
+  answers.logOddNumbers();
+  expect(global.console.log).toHaveBeenCalledWith(1);
+  expect(global.console.log).toHaveBeenCalledWith(99);
+}); 
+
+// Question 2
 test('Question 2: logOddNumbers should return undefined', () => {
   expect(answers.logOddNumbers()).toBeUndefined();
 }); 
