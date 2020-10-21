@@ -42,7 +42,7 @@
     area(25.75, 42); // 1081.5
     ```
 
-4. You are given two angles (in degrees) of a triangle. Write a function to [find and return the 3rd degree](https://www.aaamath.com/geo612x5.htm) **Note:** only positive integers will be tested.
+4. You are given two angles (in degrees) of a triangle. Write a function to find and return the [3rd degree](https://www.aaamath.com/geo612x5.htm) **Note:** only positive integers will be tested.
     Examples:
     ```javascript
     otherAngle(30, 60); // 90
