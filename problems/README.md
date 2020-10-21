@@ -33,7 +33,7 @@
     //99
     ```
 
-3. Write a function that returns the area of a rectangle, given a length and width:
+3. Write a function that returns the [area of a rectangle](https://www.khanacademy.org/math/cc-third-grade-math/imp-geometry/imp-multiply-to-find-area/a/area-rectangles-review), given a length and width:
 
     Examples:
     ```javascript
@@ -42,7 +42,7 @@
     area(25.75, 42); // 1081.5
     ```
 
-4. You are given two angles (in degrees) of a triangle. Write a function to return the 3rd **Note:** only positive integers will be tested.
+4. You are given two angles (in degrees) of a triangle. Write a function to [find and return the 3rd degree](https://www.aaamath.com/geo612x5.htm) **Note:** only positive integers will be tested.
     Examples:
     ```javascript
     otherAngle(30, 60); // 90
@@ -51,7 +51,7 @@
     otherAngle(10, 20); // 150
     ```
 
-5. Write a function that returns the diameter of a cicle, given its area:
+5. Write a function that returns the [diameter of a cicle, given its area](https://socratic.org/questions/how-do-you-find-diameter-of-a-circle-with-area):
 
     Examples:
     ```javascript
