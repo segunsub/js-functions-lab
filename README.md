@@ -19,7 +19,7 @@ Example:
 hello("Carmen"); // "Hello, Carmen!"
 ```
 
-In your code, write:
+In your code in the `answers.js` file, write:
 ```javascript
 function hello(name) {
   return `Hello, ${name}!`;
