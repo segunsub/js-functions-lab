@@ -13,13 +13,17 @@ function findProduct(a, b) {
 
 
 // Question 3
-function getSquare() {
+function getSquare(a) {
   //Write your code here
+  let area = a * a
+  return area
 }
 
 // Question 4
-function makeOpposite() {
+function makeOpposite(a, b) {
   //Write your code here
+  let opps = a * -1
+  return opps
 }
 
 // Question 5
