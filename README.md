@@ -89,8 +89,9 @@ Then run `npm test` to see the results.
 
     Example:
     ```javascript
-    logEvenNumbers();
-
+    logEvenNumbers(); // "Why is 6 afraid of 7?"
+    
+    /* Printed to the Console */
     // 0
     // 2
     // 4
