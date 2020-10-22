@@ -28,7 +28,7 @@ function hello(name) {
 
 ### Testing using the Browser
 
-To test your code using the browser, open your `index.html` in a new tab. Because your HTML has a `<script>` tag to your JavaScript file, they are linked together. Open the console in your HTML webpage (you can ignore the error about `module is not defined` and the error about `Failed to load resource`) and *invoke* the function to verify it has the expected output.
+To test your code using the browser, open your `index.html` in a new tab. Because your HTML has a `<script>` tag to your JavaScript file, they are linked together. Open the console in your HTML webpage and *invoke* the function to verify it has the expected output. You can ignore the error about `module is not defined` and the error about `Failed to load resource`.
 
 ![console](pictures/console.png)
 
@@ -38,7 +38,7 @@ You can run JavaScript outside the browser using the command `node <path_to_file
 
 **However, this will not print anything out yet!**
 
-Although we have written our function, we have never *invoked* it! We were able to invoke functions using the browser's console, but we can't invoke functions using the terminal. Instead, we must *invoke the function* in the file itself, and then run the file. Update your code in `answers.js` to *invoke* the function:
+We declared our function but we never *invoked* it! We can invoke functions in browser's console, but we can't invoke functions in terminal. Instead, we must *invoke the function* in the file itself, then run the file. Update your code in `answers.js` to *invoke* the function:
 
 ```javascript
 hello("Carmen"); // Remember hoisting is a thing ;)
@@ -49,12 +49,12 @@ function hello(name) {
 }
 ```
 
-*Save your file.* Now if we go back to your terminal and run `nodes answer.js`, we get... still nothing...
+*Save your file.* If we run `nodes answer.js`, we get... still nothing...
 
-Although we have invoked the function in our file, we never tell our program to *do anything* with our function's **return value**. When you invoke a function via the browser console, it will display the *return value*. When you run a JavaScript file using node, it treats the function's return value like any other data. Let's make a change to *print* out the return value of our function:
+Although we have invoked the function, we never tell our program to *do anything* with the function's **return value**. Let's make a change to *print* out the return value of our function:
 
 ```javascript
-console.log( hello("Carmen") ); 
+console.log( hello("Carmen") ); // Logs "Hello, Carmen!"
 
 // Question 1
 function hello(name) {
@@ -62,7 +62,7 @@ function hello(name) {
 }
 ```
 
-*Save your file.* Now run `node answers.js` from the terminal to see the expected output.
+*Save your file.* Now run `node answers.js` in the terminal to see the expected output.
 
 ### Testing using Automated Test Cases
 
