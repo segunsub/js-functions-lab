@@ -30,6 +30,8 @@ function hello(name) {
 
 To test your code using the browser, open your `index.html` in a new tab. Because your HTML has a `<script>` tag to your JavaScript file, they are linked together. Open the console in your HTML webpage (you can ignore the error about `module is not defined` and the error about `Failed to load resource`) and *invoke* the function to verify it has the expected output.
 
+![console](pictures/console.png)
+
 ### Testing using node
 
 You can run JavaScript outside the browser using the command `node <path_to_file>`. From your terminal, you must be in the project folder where `answers.js` is located. Then you can run the file from the terminal with `node answers.js`. 
@@ -69,6 +71,8 @@ Your instructors have written some test cases in the file `answers.text.js`. DO 
 From the terminal run `npm install` to install dependencies. You only have to run this command once per lab/assignment.
 
 Then run `npm test` to see the results.
+
+![node](pictures/node.png)
 
 ## Coding Exercises
 
