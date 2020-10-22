@@ -4,6 +4,12 @@ function hello(name) {
   return `Hello, ${name}!`
 }
 
+// Question 2
+function findProduct(a, b) {
+//Write your code here
+  let product = a * b
+ return product
+}
 
 
 // Question 3
