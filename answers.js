@@ -1,6 +1,7 @@
 // Question 1
-function hello() {
+function hello(name) {
   // Write your code here
+  return `Hello, ${name}!`
 }
 
 // Question 2
