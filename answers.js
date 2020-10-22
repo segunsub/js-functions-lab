@@ -31,6 +31,8 @@ function makeOpposite() {
 // Question 5
 function logEvenNumbers() {
   // Write your code here
+  console.log()
+  return `"Why is 6 afraid of 7?`
 }
 
 // Question 6
