@@ -4,10 +4,7 @@ function hello(name) {
   return `Hello, ${name}!`
 }
 
-// Question 2
-function findProduct() {
-  // Write your code here
-}
+
 
 // Question 3
 function getSquare() {
