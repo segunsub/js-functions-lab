@@ -19,8 +19,10 @@ function findProduct(a, b) {
 // findProduct(5, 7)
 
 // Question 3
-function getSquare() {
+function getSquare(a) {
   //Write your code here
+  let area = a * a
+  return area
 }
 
 // Question 4
