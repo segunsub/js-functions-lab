@@ -38,10 +38,28 @@ function logEvenNumbers() {
 }
 
 // Question 6
-function sumFoursAndSevens() {
-  // Write your code here
+function sumFoursAndSevens(a) {
+    let i = 1;
+    let x = 1;
+    let b = 0;
+    let c = 0;
+    while (i <= a) {
+        if (i % 4 === 0){
+      console.log(i);
+      b = b + i;
+    }
+    i++;
+    }
+    while (x <= a) {
+        if (x % 7 === 0){
+       console.log(x);
+       c = c + x;
+     }
+     x++;
+    }
+    let sum = b + c;
+    return sum
 }
-
 // Question 7
 function exsAndOhs() {
   // Write your code here
