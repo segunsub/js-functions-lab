@@ -24,12 +24,12 @@ function logEvenNumbers() {
 }
 
 // Question 6
-function multisum() {
+function sumFoursAndSevens() {
   // Write your code here
 }
 
 // Question 7
-function stringy() {
+function exsAndOhs() {
   // Write your code here
 }
 
@@ -40,6 +40,6 @@ module.exports = {
   makeOpposite,
   logEvenNumbers,
   findProduct,
-  multisum,
-  stringy,
+  sumFoursAndSevens,
+  exsAndOhs,
 };

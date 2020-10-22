@@ -44,15 +44,15 @@ test('Question 5: logEvenNumbers should return "Why is 6 afraid of 7?"', () => {
 }); 
 
 // Question 6
-test('Question 6: multisum', () => {
-  expect(answers.multisum(17)).toBe(61);
-  expect(answers.multisum(21)).toBe(102);
+test('Question 6: sumFoursAndSevens', () => {
+  expect(answers.sumFoursAndSevens(17)).toBe(61);
+  expect(answers.sumFoursAndSevens(21)).toBe(102);
 });
 
 // Question 7
-test('Question 7: stringy', () => {
-  expect(answers.stringy(6)).toBe("XOXOXO");
-  expect(answers.stringy(9)).toBe("XOXOXOXOX");
-  expect(answers.stringy(4)).toBe("XOXO");
-  expect(answers.stringy(7)).toBe("XOXOXOX");
+test('Question 7: exsAndOhs', () => {
+  expect(answers.exsAndOhs(6)).toBe("XOXOXO");
+  expect(answers.exsAndOhs(9)).toBe("XOXOXOXOX");
+  expect(answers.exsAndOhs(4)).toBe("XOXO");
+  expect(answers.exsAndOhs(7)).toBe("XOXOXOX");
 });

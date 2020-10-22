@@ -135,18 +135,18 @@ Then run `npm test` to see the results.
 
     Examples:
     ```javascript
-    multisum(17); //(4 + 7 + 8 + 12 + 14 + 16) => 61
-    multisum(21); //(4 + 7 + 8 + 12 + 14 + 16 + 20 + 21) => 102
+    sumFoursAndSevens(17); //(4 + 7 + 8 + 12 + 14 + 16) => 61
+    sumFoursAndSevens(21); //(4 + 7 + 8 + 12 + 14 + 16 + 20 + 21) => 102
     ```
     
 7. Write a function that takes one argument, a positive integer, and returns a string of alternating `'X'`s and `'O'`s, always starting with a `'X'`. The length of the string should match the given integer.
 
     Examples:
     ```javascript
-    stringy(6);    // "XOXOXO"
-    stringy(9);    // "XOXOXOXOX"
-    stringy(4);    // "XOXO"
-    stringy(7);    // "XOXOXOX"
+    exsAndOhs(6);    // "XOXOXO"
+    exsAndOhs(9);    // "XOXOXOXOX"
+    exsAndOhs(4);    // "XOXO"
+    exsAndOhs(7);    // "XOXOXOX"
     ```
 
 ## Challenge functions:
