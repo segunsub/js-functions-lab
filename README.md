@@ -85,12 +85,39 @@ Then run `npm test` to see the results.
     hello("Reuben Ogbonna"); // "Hello, Reuben Ogbonna!"
     ```
 
-2. Write a function that **logs** all even numbers from 0 to 50, inclusive, to the console. Log all numbers on separate lines. Then, this function should **return** the string, `"Why is 6 afraid of 7?"`.
+2. Write a function that takes in two numbers and returns the product (multiple those numbers together):
+
+    Examples:
+    ```javascript
+    findProduct(5, 7); // 35
+    findProduct(15, 10); // 150
+    findProduct(25.75, 42); // 1081.5
+    ```
+    
+3. Write a function that returns the area of a square when given one side as the input:
+
+    Examples:
+    ```javascript
+    getSquare(5); // 25
+    getSquare(4); // 16
+    getSquare(3); // 9
+    ```
+
+4. Write a function that takes in a number and returns the opposite of that number. If the original number is positive, return the negative version of that number. If the original number is negative, return the positive veresion of that number.
+
+    Examples:
+    ```javascript
+    makeOpposite(9); // -9
+    makeOpposite(-3); // 3
+    makeOpposite(5.78); // -5.78
+    ```
+
+5. Write a function that **logs** all even numbers from 0 to 50, inclusive, to the console. Log all numbers on separate lines. Then, this function should **return** the string, `"Why is 6 afraid of 7?"`.
 
     Example:
     ```javascript
     logEvenNumbers(); // "Why is 6 afraid of 7?"
-    
+
     /* Printed to the Console */
     // 0
     // 2
@@ -102,16 +129,7 @@ Then run `npm test` to see the results.
     // 50
     ```
 
-3. Write a function that takes in two numbers and returns the product (multiple those numbers together):
-
-    Examples:
-    ```javascript
-    findProduct(5, 7); // 35
-    findProduct(15, 10); // 150
-    findProduct(25.75, 42); // 1081.5
-    ```
-
-4. Write a function that returns the sum of all numbers between 1 and some other number, inclusive, that are multiples of 4 or 7. For example, if the supplied number is 17, the result should be 61 (4 + 7 + 8 + 12 + 14 + 16).
+6. Write a function that returns the sum of all numbers between 1 and some other number, inclusive, that are multiples of 4 or 7. For example, if the supplied number is 17, the result should be 61 (4 + 7 + 8 + 12 + 14 + 16).
 
     You may assume that the number passed in is an integer greater than 1.
 
@@ -121,7 +139,7 @@ Then run `npm test` to see the results.
     multisum(21); //(4 + 7 + 8 + 12 + 14 + 16 + 20 + 21) => 102
     ```
     
-5. Write a function that takes one argument, a positive integer, and returns a string of alternating `'X'`s and `'O'`s, always starting with a `'X'`. The length of the string should match the given integer.
+7. Write a function that takes one argument, a positive integer, and returns a string of alternating `'X'`s and `'O'`s, always starting with a `'X'`. The length of the string should match the given integer.
 
     Examples:
     ```javascript
