@@ -5,34 +5,36 @@ function hello(name) {
 }
 
 // Question 2
-// function findProduct(a, b) {
-//   // Write your code here
-//   let product = "a" * b
-//   return `${product}`
-// }
-
 function findProduct(a, b) {
+//Write your code here
   let product = a * b
  return product
 }
-// console.log (findProduct(a, b))
-// findProduct(5, 7)
+
 
 // Question 3
-function getSquare() {
+function getSquare(a) {
   //Write your code here
+  let area = a * a
+  return area
 }
 
 // Question 4
-function makeOpposite() {
+function makeOpposite(a, b) {
   //Write your code here
+  let opps = a * -1
+  return opps
 }
 
 // Question 5
 function logEvenNumbers() {
   // Write your code here
-  console.log()
-  return `"Why is 6 afraid of 7?`
+  for (let i = 1; i <= 50; i++){
+    if (i % 2 === 0){
+      console.log(i)
+    }
+  }
+  return `Why is 6 afraid of 7?`
 }
 
 // Question 6
