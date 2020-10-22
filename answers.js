@@ -5,9 +5,18 @@ function hello(name) {
 }
 
 // Question 2
-function findProduct() {
-  // Write your code here
+// function findProduct(a, b) {
+//   // Write your code here
+//   let product = "a" * b
+//   return `${product}`
+// }
+
+function findProduct(a, b) {
+  let product = a * b
+ return product
 }
+// console.log (findProduct(a, b))
+// findProduct(5, 7)
 
 // Question 3
 function getSquare() {
